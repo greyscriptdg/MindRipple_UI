@@ -1,0 +1,10 @@
+# Prioritize Dart for GitHub language stats
+*.dart linguist-detectable=true
+
+# Ignore these folders from language detection
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+web/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
