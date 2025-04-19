@@ -1,5 +1,6 @@
 # Prioritize Dart for language stats
 *.dart linguist-detectable=true
+lib/** linguist-language=Dart
 
 # Exclude platform-specific boilerplate from stats
 android/** linguist-vendored
