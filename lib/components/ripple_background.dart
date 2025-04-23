@@ -8,19 +8,26 @@ class RippleBackground extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomPaint(
       size: MediaQuery.of(context).size,
-      painter: _RipplePainter(),
+      painter: _RipplePainter(brightness: Theme.of(context).brightness),
     );
   }
 }
 
 class _RipplePainter extends CustomPainter {
+  final Brightness brightness;
+
+  _RipplePainter({required this.brightness});
+
   @override
   void paint(Canvas canvas, Size size) {
     final center = Offset(size.width / 2, size.height / 3);
-    final paint = Paint()..color = Colors.teal.withOpacity(0.1);
+    final baseColor = brightness == Brightness.dark
+        ? Colors.tealAccent.withOpacity(0.12)
+        : Colors.teal.withOpacity(0.10);
+    final paint = Paint()..color = baseColor;
 
     for (int i = 1; i <= 5; i++) {
-      canvas.drawCircle(center, 60.0 * i, paint..color = paint.color.withOpacity(0.12 - (i * 0.015)));
+      canvas.drawCircle(center, 60.0 * i, paint..color = baseColor.withOpacity((0.12 - (i * 0.015)).clamp(0.02, 0.12)));
     }
   }
 

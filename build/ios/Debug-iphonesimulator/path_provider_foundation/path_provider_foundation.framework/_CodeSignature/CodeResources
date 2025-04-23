@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Bf1UZJU/fB1U3eFVZR/FS9EgOO8=
+		xkoDqEh97vj0q5JaRoWnp9d31V8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LQs6AiIjJN+Yh9D/d5trIZJJ7gk=
+		3nkiiumamdsf9VtrtDlAG+8ZLrM=
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8mWfUwjefXnkjwFIv8I74Mx+Leo=
+		OGWm3KI4T3rIsOOPuWPi4rwRS8Y=
 		</data>
 		<key>path_provider_foundation_privacy.bundle/Info.plist</key>
 		<data>
-		0k4F/m5fStSsN0EWvqvYpqxNy8g=
+		mCcImpPYL41OSDOFl3MQ2f4Ha+k=
 		</data>
 		<key>path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eOYXkjX/zlxOBI6TG6CPonL4YHcDPnKdW9RY2/pZhuo=
+			RzZn3H3Dbru7hslUQKP0RnbnEbPipoDd0g2/hsWVGgE=
 			</data>
 		</dict>
 		<key>Modules/path_provider_foundation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4UNob+y0ToICwgG0z2+XWdvLYMwsost1AstOZj7qFU=
+			4o6ro7N0oc6yGfRdGV2+5T29fcO9gkOBx+BaJkbCBHY=
 			</data>
 		</dict>
 		<key>path_provider_foundation_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yh03P5G69n7NAIFZX5XFGdrN6Q4TxwK4mDyGnwfst/U=
+			qSRxkpRNEQUzxggOz5N8IYl0cW95d9RcXwbz/Yeds0A=
 			</data>
 		</dict>
 		<key>path_provider_foundation_privacy.bundle/PrivacyInfo.xcprivacy</key>

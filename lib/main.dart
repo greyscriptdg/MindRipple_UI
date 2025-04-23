@@ -1,5 +1,3 @@
-//Dhairya's Mind Ripple
-
 import 'package:flutter/material.dart';
 import 'theme/app_theme.dart';
 import 'screens/home_screen.dart';
