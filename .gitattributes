@@ -1,8 +1,8 @@
-# Prioritize Dart for language stats
+# Prioritize Dart for GitHub language stats
 *.dart linguist-detectable=true
 lib/** linguist-language=Dart
 
-# Exclude platform-specific boilerplate from stats
+# Exclude platform and build files from stats
 android/** linguist-vendored
 ios/** linguist-vendored
 macos/** linguist-vendored
@@ -11,3 +11,8 @@ windows/** linguist-vendored
 linux/** linguist-vendored
 build/** linguist-vendored
 .flutter-plugins-dependencies linguist-generated
+
+# Neutralize misleading Makefile or scripts
+Makefile linguist-vendored
+*.sh linguist-vendored
+*.gradle linguist-vendored
