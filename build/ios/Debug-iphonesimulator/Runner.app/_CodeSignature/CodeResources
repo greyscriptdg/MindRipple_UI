@@ -46,7 +46,11 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
+<<<<<<< Updated upstream
 		fLhJVm/qZJt4xzhxOfaP0IabcbY=
+=======
+		G6egLuix+yLJC3CB4/ClN5ORFyg=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +58,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
+<<<<<<< Updated upstream
 		k93YJgit9tmZpfxPS98uSOTxHKA=
+=======
+		S3eGlVq+617ZcoEGK52hJTTHYPU=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -86,7 +94,11 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
+<<<<<<< Updated upstream
 		ehtVEhL7z2j0/JKajyW4k7Gjtjc=
+=======
+		5UDZHhLq/Nk4PPv6yl0LnwR11Oc=
+>>>>>>> Stashed changes
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -301,7 +313,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			V4+tCkYInHZMsNnu93+aj8j4xnayw/r5BkpWKgmv54I=
+=======
+			Kec4wuQrZbZHmY8tW6TOQzGK5mFBdOQaTWs82qBnPtA=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -315,7 +331,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			oa3fLBZ2c2JZmo/t5C4Xa33w6+dhrm77iC+KprRksfk=
+=======
+			mMZN66YJnD1GDq8PezcCazakVaXaKgCxKR5c3bhMjeI=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -371,7 +391,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			wwgajWqEzCmRHJtDfxFqas7mt8qRuigLaGSpW41e1mQ=
+=======
+			S5pKBaVvojAhVZGXzlpHGdwuG5EteZFLGFsCqFOOp5c=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
