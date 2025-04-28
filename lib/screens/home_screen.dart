@@ -1,11 +1,43 @@
 import 'package:flutter/material.dart';
 import '../components/mood_card.dart';
 import '../components/ripple_background.dart';
-import '../utils/mock_data.dart';
+import '../models/mood_entry.dart';
 import 'add_mood_screen.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  List<MoodEntry> moodEntries = [
+    MoodEntry(
+      emoji: "😊",
+      title: "Feeling Great",
+      note: "Had a super productive morning and a healthy breakfast.",
+      time: "9:00 AM",
+    ),
+    MoodEntry(
+      emoji: "😌",
+      title: "Relaxed",
+      note: "Enjoyed a walk in the park with good music.",
+      time: "12:30 PM",
+    ),
+    MoodEntry(
+      emoji: "😴",
+      title: "Sleepy",
+      note: "Lunch was heavy, struggling to stay awake 😅",
+      time: "2:15 PM",
+    ),
+  ];
+
+  void _addNewMood(MoodEntry newEntry) {
+    setState(() {
+      moodEntries.insert(0, newEntry);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -38,11 +70,14 @@ class HomeScreen extends StatelessWidget {
             },
           ),
           floatingActionButton: FloatingActionButton(
-            onPressed: () {
-              Navigator.push(
+            onPressed: () async {
+              final result = await Navigator.push(
                 context,
                 MaterialPageRoute(builder: (_) => const AddMoodScreen()),
               );
+              if (result != null && result is MoodEntry) {
+                _addNewMood(result);
+              }
             },
             child: const Icon(Icons.add),
           ),
