@@ -45,14 +45,14 @@ class _EmojiSliderState extends State<EmojiSlider> {
               decoration: BoxDecoration(
                 color: isSelected
                     ? Theme.of(context).brightness == Brightness.dark
-                        ? Colors.white.withOpacity(0.2)
-                        : Colors.teal.withOpacity(0.2)
+                        ? Colors.tealAccent.withOpacity(0.3)
+                        : Colors.teal.withOpacity(0.25)
                     : Colors.transparent,
                 borderRadius: BorderRadius.circular(16),
                 border: isSelected
                     ? Border.all(
                         color: Theme.of(context).brightness == Brightness.dark
-                            ? Colors.white
+                            ? Colors.tealAccent
                             : Colors.teal,
                         width: 2,
                       )

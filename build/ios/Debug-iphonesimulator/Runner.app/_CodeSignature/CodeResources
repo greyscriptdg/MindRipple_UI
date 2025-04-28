@@ -46,11 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-<<<<<<< Updated upstream
-		fLhJVm/qZJt4xzhxOfaP0IabcbY=
-=======
-		G6egLuix+yLJC3CB4/ClN5ORFyg=
->>>>>>> Stashed changes
+		cYW2kKztyO1/N4IFEjyo91ceihg=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -58,11 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-<<<<<<< Updated upstream
-		k93YJgit9tmZpfxPS98uSOTxHKA=
-=======
-		S3eGlVq+617ZcoEGK52hJTTHYPU=
->>>>>>> Stashed changes
+		ma3ec/PCZV2Xibn5o4fNa+pRhdU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -94,11 +86,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-<<<<<<< Updated upstream
-		ehtVEhL7z2j0/JKajyW4k7Gjtjc=
-=======
-		5UDZHhLq/Nk4PPv6yl0LnwR11Oc=
->>>>>>> Stashed changes
+		7SRHha1vHcOIHIVeY3oWXW+aJmw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -313,11 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			V4+tCkYInHZMsNnu93+aj8j4xnayw/r5BkpWKgmv54I=
-=======
-			Kec4wuQrZbZHmY8tW6TOQzGK5mFBdOQaTWs82qBnPtA=
->>>>>>> Stashed changes
+			vw3sdVmkp+0+99ADZ8fHD09p7t5aVY0kGR6vxRlEubc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -331,11 +315,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			oa3fLBZ2c2JZmo/t5C4Xa33w6+dhrm77iC+KprRksfk=
-=======
-			mMZN66YJnD1GDq8PezcCazakVaXaKgCxKR5c3bhMjeI=
->>>>>>> Stashed changes
+			6cirB0L8vhpdhzif4WTgIi+ndLq6Q7YNHHlEKp7bbK4=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
@@ -391,11 +371,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			wwgajWqEzCmRHJtDfxFqas7mt8qRuigLaGSpW41e1mQ=
-=======
-			S5pKBaVvojAhVZGXzlpHGdwuG5EteZFLGFsCqFOOp5c=
->>>>>>> Stashed changes
+			HLjlykpFfGHBcUtZ2IInBp/rp26RfgvUsavnD5GyKzY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
