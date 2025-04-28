@@ -12,7 +12,7 @@ class EmojiSlider extends StatefulWidget {
 class _EmojiSliderState extends State<EmojiSlider> {
   final List<String> emojis = ["😀", "😊", "😌", "😭", "😠", "😭"];
   String selectedEmoji = "😀";
-
+//emoji issue fixed
   @override
   void initState() {
     super.initState();
