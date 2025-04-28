@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../components/emoji_slider.dart';
+import '../models/mood_entry.dart';
+import 'package:intl/intl.dart';
 
 class AddMoodScreen extends StatefulWidget {
   const AddMoodScreen({super.key});
@@ -14,7 +16,17 @@ class _AddMoodScreenState extends State<AddMoodScreen> {
 
   void _saveMood() {
     if (_controller.text.trim().isNotEmpty) {
-      Navigator.pop(context); // Future: Pass data back
+      final now = DateTime.now();
+      final timeFormatted = DateFormat.jm().format(now);
+
+      final newEntry = MoodEntry(
+        emoji: selectedEmoji,
+        title: "New Mood",
+        note: _controller.text.trim(),
+        time: timeFormatted,
+      );
+
+      Navigator.pop(context, newEntry);
     }
   }
 
